@@ -44,6 +44,18 @@ En este trabajo, se utilizan sólamente n-gramas para la clasificación de polar
     - Se genera la matriz de confusión
 2. Para la fase de pruebas, el conjunto de pruebas será dado por el profesor en clase para la evaluación final del desempeño del modelo.
 
+----NOTA-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+##### Modelo de Análisis de Sentimientos Alternativo(Incluyendo title)
+A una manera de prueba y seguir mejorando nuestro modelo, se desarrolló un segundo modelo alternativo incluyendo el factor del title de cada opinión para verificar si esta acción o que tanto peso tendría el title en la mejora para clasificar mejor, sin disminuir el score o bien aumentándolo.  
+
+Este documento está en este repositorio: 2.0-modelo-AnálisisSentimientos-title.ipynb
+
+Al ejecutar el modelo encontramos que no existe una diferencia significativa y de peso que nos hicieran inclinarnos por esta alternativa, y esto solo agregaría más carga al proceso de análisis sin resultados diferentes y favorables.  
+
+Esto no llevo a pensar en la influencia del mal etiquetado en las opiniones del documento sé que tuvo para entrenamiento.  
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ### Instrucciones de ejecución
 ------------
 1. Clonar el repositorio
